@@ -11,94 +11,8 @@
   box-sizing: border-box;
 }
 
-/* .menu {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-
-
-.checkbox {
-  position: absolute;
-  display: none;
-}
-
-
-label {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  background-color: black;
-  cursor:pointer;
-}
-
-#one {
-  position: absolute;  
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-  
-  background: green;
-  z-index: -20;
-  transition: 0.9s;
-}
-
-.checkbox:checked~#one {
-  left: 400px;
-}
-
-#two {
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  
-  background: blue;
-  z-index: -20;
-}
-
-.checkbox:checked ~ #two {
-  transform: translate(200px, 200px);
-  transition: 0.9s;
-}
-
-#three {
-  position: absolute;
-  
-
-  background: red;
-  z-index: -20;
-  ;
-}
-
-.checkbox:checked~#three {
-  top: 300px;
-  left: 400px;
-}
-
-#four {
-  position: absolute;
-  
-  background: pink;
-  z-index: -20;
-
-}
-
-.box {
-  display: inline-block;
-  width: 50%;
-  height: 50%;
-  background: red;
-  color: white;
-} */
-
 .menu {
-  /* background-color: aqua; */
+  
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -131,12 +45,6 @@ label {
 .checkbox {
   display: none;
 }
-
-
-/* .checkbox:checked ~ .label {
-  animation: jello-horizontal .9s linear both;
-  
-} */
 
   .bubble-out {
     animation: bubble-out .9s linear both
